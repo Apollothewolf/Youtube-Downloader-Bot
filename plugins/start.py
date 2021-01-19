@@ -8,7 +8,7 @@ async def start(client, message):
         [InlineKeyboardButton("©ⱮͲ_OᖴᖴIᑕIᗩᒪ™", url="https://t.me/TheRealApollo")],
        
     ])
-    welcomed = f"Heya <b>{message.from_user.first_name}</b>\nWelcome to @malluurlbot,\nThe Most Advanced utube Video and Audio Downloader in Telegram!\nplease send any YouTube url or hit /help for more info\nPlease send any utube video link or search using @vid inline mode.\n "
+    welcomed = f"Heya <b>{message.from_user.first_name}</b>\nWelcome to @malluurlbot,\nThe Most Advanced utube Video and Audio Downloader in Telegram!\nplease send any YouTube url\nor hit /help for more info\nPlease send any utube video link or search using @vid inline mode.\n "
 
 
     await message.reply_text(welcomed, reply_markup=joinButton)
